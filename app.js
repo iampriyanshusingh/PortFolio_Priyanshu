@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import RootLayout from "./Layout";
+import RootLayout from "./RootLayout";
 import Header from "./src/files/Header";
 import HeroSection from "./src/files/Hero";
 import Projects from "./src/files/Projects";

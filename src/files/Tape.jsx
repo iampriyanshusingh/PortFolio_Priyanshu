@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import starIcon from "../assets/icons/star_tape.svg";
+import starIcon from "../../public/assets/icons/star_tape.svg";
 
 const words = [
   "Performance",

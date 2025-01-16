@@ -1,9 +1,9 @@
 import React from "react";
-import netflixGPT from "../assets/images/NetflixGPT.png";
-import spotify from "../assets/images/Spotify.png";
-import covid19Detection from "../assets/images/Covid19.png";
-import checkCircleIcon from "../assets/icons/check-circle.svg";
-import arrowUpRightIcon from "../assets/icons/arrow-up-right.svg";
+import netflixGPT from "../../public/assets/images/NetflixGPT.png";
+import spotify from "../../public/assets/images/Spotify.png";
+import covid19Detection from "../../public/assets/images/Covid19.png";
+import checkCircleIcon from "../../public/assets/icons/check-circle.svg";
+import arrowUpRightIcon from "../../public/assets/icons/arrow-up-right.svg";
 import Card from "../components/Card";
 const portfolioProjects = [
   {

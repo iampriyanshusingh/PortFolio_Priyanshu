@@ -1,4 +1,4 @@
-import StarIcon from "../assets/icons/star.svg";
+import StarIcon from "../../public/assets/icons/star.svg";
 
 const CardHeader = ({ title, description, className }) => {
   return (

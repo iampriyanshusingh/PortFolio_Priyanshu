@@ -1,6 +1,6 @@
-import memojiImage from "../assets/images/memoji-computer.png";
-import ArrowDown from "../assets/icons/arrow-down.svg";
-import grainImage from "../assets/images/grain.jpg";
+import memojiImage from "../../public/assets/images/memoji-computer.png";
+import ArrowDown from "../../public/assets/icons/arrow-down.svg";
+import grainImage from "../../public/assets/images/grain.jpg";
 import Stars from "../utils/Stars";
 import HeroRing from "../utils/HeroRing.jsx";
 

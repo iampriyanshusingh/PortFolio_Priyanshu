@@ -1,7 +1,7 @@
 import React from "react";
 import HeroOrbit from "../components/HeroOrbit.jsx";
-import starIcon from "../assets/icons/star.svg";
-import SparkleIcon from "../assets/icons/sparkle.svg";
+import starIcon from "../../public/assets/icons/star.svg";
+import SparkleIcon from "../../public/assets/icons/sparkle.svg";
 
 const Stars = () => {
   return (

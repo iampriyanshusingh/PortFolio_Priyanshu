@@ -1,4 +1,4 @@
-import ArrowUpRightIcon from "../assets/icons/arrow-up-right.svg";
+import ArrowUpRightIcon from "../../public/assets/icons/arrow-up-right.svg";
 
 const footerLink = [
   {
