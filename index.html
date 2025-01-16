@@ -9,5 +9,11 @@
 <body>
     <div id="root"></div>
     <script type="module" src="app.js"></script>
+    <script>
+        if (window.location.origin) {
+          __parcel__ = { require: { basePath: window.location.origin + '/' } };
+        }
+      </script>
+      
 </body>
 </html>
