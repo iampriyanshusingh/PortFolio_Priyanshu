@@ -10,7 +10,7 @@ import chromeIcon from "../assets/icons/chrome.svg";
 import gitHubIcon from "../assets/icons/github.svg";
 import mapImage from "../assets/images/VaranasiMap.jpg";
 import smileMemoji from "../assets/images/memoji-smile.png";
-import CardHeader from "../components/cardHeader";
+import CardHeader from "../components/CardHeader";
 import ToolBoxItems from "../components/ToolBoxItem";
 import {motion} from "framer-motion";
 import { useRef } from "react";
