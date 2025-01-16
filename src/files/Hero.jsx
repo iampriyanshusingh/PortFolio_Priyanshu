@@ -1,4 +1,5 @@
 import memojiImage from "../../public/assets/images/memoji-computer.png";
+import myPhoto from "../../public/assets/images/myPhoto2.jpg";
 import ArrowDown from "../../public/assets/icons/arrow-down.svg";
 import grainImage from "../../public/assets/images/grain.jpg";
 import Stars from "../utils/Stars";
@@ -27,7 +28,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center">
           <img
             src={memojiImage}
-            className="size-[100px] mb-3 rounded-3xl"
+            className="size-[100px] mb-3 "
             alt="My Photo"
           ></img>
 

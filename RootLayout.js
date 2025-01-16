@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"; // Assuming you have Tailwind's styles imported
 
 const metadata = {
-  title: "My Portfolio",
+  title: "Portfolio ~ Priyanshu Singh",
   description: "Created with the help of React & Tailwind CSS",
 };
 
