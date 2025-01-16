@@ -25,10 +25,36 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted: ", formData);
-    alert("Thank you for your message! We'll get in touch soon.");
+  
+    // Send form data to the backend API
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      const result = await response.json();
+  
+      if (response.ok) {
+        // Handle success
+        console.log(result.message);
+        alert("Thank you for your message! We'll get in touch soon.");
+      } else {
+        // Handle errors
+        console.error(result.message);
+        alert("There was an issue with your submission. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending form data:", error);
+      alert("There was an error. Please try again later.");
+    }
+  
+    // Reset the form
     setFormData({
       name: "",
       age: "",
@@ -38,6 +64,7 @@ const Contact = () => {
     });
     setShowForm(false);
   };
+  
 
   return (
     <div id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20 relative z-10">
