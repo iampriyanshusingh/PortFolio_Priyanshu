@@ -3,19 +3,23 @@ import ArrowUpRightIcon from "../../public/assets/icons/arrow-up-right.svg";
 const footerLink = [
   {
     title: "Youtube",
-    href: "#",
+    href: "https://www.youtube.com/@iamparikshitsingh",
   },
   {
     title: "Twitter",
-    href: "#",
+    href: "https://x.com/imparikshtsingh",
   },
   {
-    title: "Instagram",
-    href: "#",
+    title: "GitHub",
+    href: "https://github.com/iampriyanshusingh",
   },
   {
     title: "LinkedIN",
-    href: "#",
+    href: "https://www.linkedin.com/in/iampriyanshusingh/",
+  },
+  {
+    title: "Instagram",
+    href: "https://www.instagram.com/iamparikshitsingh/",
   },
 ];
 
@@ -31,7 +35,8 @@ const Footer = () => {
               <a
                 href={link.href}
                 key={link.title}
-                className="inline-flex items-center gap-1.5 opacity-40 hover:opacity-100"
+                target="_blank"
+                className="inline-flex items-center gap-1.5 opacity-40 hover:opacity-100 transition-opacity duration-300"
               >
                 <span className="font-semibold  hover:opacity-100">{link.title}</span>
                 <img

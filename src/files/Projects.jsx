@@ -3,8 +3,9 @@ import netflixGPT from "../../public/assets/images/NetflixGPT.png";
 import spotify from "../../public/assets/images/Spotify.png";
 import covid19Detection from "../../public/assets/images/Covid19.png";
 import checkCircleIcon from "../../public/assets/icons/check-circle.svg";
-import arrowUpRightIcon from "../../public/assets/icons/arrow-up-right.svg";
+import arrowUpRightIcon from "../../public/assets/icons/arrow-up-right-project.svg";
 import Card from "../components/Card";
+
 const portfolioProjects = [
   {
     company: "Netflix",
@@ -90,6 +91,7 @@ const Projects = () => {
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result) => (
                       <li className="flex gap-2 text-sm/50 md:text-base/50 text-white/50">
+          
                         <img
                           src={checkCircleIcon}
                           className="size-5 md:size-6 opacity-50"
