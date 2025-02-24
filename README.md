@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This repository showcases my skills, projects, and experience in Web development, AI, robotics, etc. Below you'll find a collection of my best works, along with the technologies I've used to create them.
 
-# About Me
+## About Me
 
 Hi there! I'm Priyanshu Singh, a passionate Developer, engineer, Athelete. I love solving problems, building innovative projects, and continuously learning. I am currently pursuing BTech in Artificial Intelligence & Machine Learning. 
 
