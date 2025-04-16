@@ -5,7 +5,7 @@ import covid19Detection from "../../public/assets/images/Covid19.png";
 import checkCircleIcon from "../../public/assets/icons/check-circle.svg";
 import arrowUpRightIcon from "../../public/assets/icons/arrow-up-right-project.svg";
 import Card from "../components/Card";
-
+import imgEnhancer from "../../public/assets/images/imgEnhancerPhoto.png";
 const portfolioProjects = [
   {
     company: "Netflix",
@@ -16,8 +16,20 @@ const portfolioProjects = [
       { title: "Multiple Language Support" },
       { title: "Responsive & Optimized for mobile" },
     ],
-    link: "https://github.com/iampriyanshusingh",
+    link: "https://netflix-gpt-five-sandy.vercel.app/",
     image: netflixGPT,
+  },
+  {
+    company: "Personal Project",
+    year: "2025",
+    title: "AI Image Enhancer",
+    results: [
+      { title: "Added Built in API for Image Enhancer" },,
+      { title: "Easy to use" },
+      { title: "Responsive & Optimized for mobile" },
+    ],
+    link: "https://image-enhancer-kohl.vercel.app/",
+    image: imgEnhancer ,
   },
   {
     company: "Project Exhibition VIT",
