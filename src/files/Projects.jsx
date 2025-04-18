@@ -5,7 +5,7 @@ import covid19Detection from "../../public/assets/images/Covid19.png";
 import checkCircleIcon from "../../public/assets/icons/check-circle.svg";
 import arrowUpRightIcon from "../../public/assets/icons/arrow-up-right-project.svg";
 import Card from "../components/Card";
-import imgEnhancer from "../../public/assets/images/imgEnhancerPhoto.png";
+import imgEnhancer from "../../public/assets/images/ImgEnhancerPhoto.png";
 const portfolioProjects = [
   {
     company: "Netflix",
