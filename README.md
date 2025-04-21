@@ -26,7 +26,7 @@ Hi there! I'm Priyanshu Singh, a passionate Developer, engineer, Athelete. I lov
 
 3. Open `index.html` in your browser to view the portfolio.
 
-### Contact Me
+## Contact Me
 
 - Email: singhpriyanshu086@gmail.com
 - LinkedIn: [@iampriyanshusingh](https://www.linkedin.com/in/iampriyanshusingh/)
