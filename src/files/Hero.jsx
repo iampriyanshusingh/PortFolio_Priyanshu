@@ -67,7 +67,7 @@ const HeroSection = () => {
               <a
                 className="font-semibold"
                 target="_blank"
-                href="https://drive.google.com/file/d/10oXrE-yxGYg_S-ztSo9fHBzcBo2PFifh/view?usp=drive_link"
+                href="https://drive.google.com/file/d/103f8BWA4zudskRlraV-fBlXQ2LKmOyFQ/view?usp=sharing"
               >
                 📝 My Resume
               </a>
